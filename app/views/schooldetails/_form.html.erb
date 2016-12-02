@@ -1,0 +1,73 @@
+<%= form_for(schooldetail) do |f| %>
+  <% if schooldetail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(schooldetail.errors.count, "error") %> prohibited this schooldetail from being saved:</h2>
+
+      <ul>
+      <% schooldetail.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class= "form-container">
+<div class= "form">
+<h1 id= "newschooldetails">NEW SCHOOl DETAILS </h1>
+<div class= "part1">
+  <div class="field">
+    <%= f.label :name, "SCHOOLNAME" ,id:"schoolname" %>
+    <%= f.text_field :schoolname %></br>
+  </div></br>
+
+  <div class="schoola">
+    <%= f.label :name, "ADDRESS",id:"schooladdress" %>
+    <%= f.text_area :address %></br>
+  </div></br>
+
+  <div class="schoolcity">
+    <%= f.label :name, "CITY"%></br>
+    <%= f.text_field :city,class:"field" %></br>
+  </div></br>
+
+  <div class="schoolstate ">
+    <%= f.label :name,"STATE"%></br>
+    <%= f.text_field :state,class:"field" %>
+  </div>
+
+  <div class="schoolstate">
+    <%= f.label :name, "PINCODE" %></br>
+    <%= f.text_field :pincode,class:"field" %>
+  </div>
+  </div>
+  
+   <!-- <div class= "part2">
+   <div class="radiobuttons">
+    <%= f.label :name,"AFFILIATEDBOARD",class:"affiliatedboard" %></br>
+    <%= f.radio_button :affiliatedboard,'CBSE' %><%=f.label :name,'ICSE',class:"radio" %>
+    <%= f.radio_button :affiliatedboard,'ICSE' %><%=f.label :name,'ICSE',class:"radio" %>
+    <%= f.radio_button :affiliatedboard, 'Matric'%><%=f.label :name,'Matric',class:"radio" %></br>
+    <%= f.radio_button :affiliatedboard, 'StateBoard'%><%=f.label :name,'StateBoard',class:"stateboard" %>
+
+  </div> 
+  </div> -->
+    <div class="left-part">
+  <%= f.label :name ,"AFFILIATED BOARD:", class:"text-muted" %><br/>
+    <div class="field">
+      <%= f.radio_button :affiliatedboard, 'CBSE'%><%= f.label :name," CBSE" ,class:"text" %>
+      <%= f.radio_button :affiliatedboard, 'ICSE' %><%= f.label :name," ICSE" ,class:"text" %>
+      <%= f.radio_button :affiliatedboard, 'MATRIC' %><%= f.label :name," MATRIC" ,class:"text" %> <br/>
+      <%= f.radio_button :affiliatedboard, 'STATE BOARD' %><%= f.label :name," STATE BOARD" ,class:"text" %> <br/>
+    </div>
+  </div> 
+<!-- </div> -->
+
+   
+    
+   
+ 
+  <div class="actions">
+    <%= f.submit "SchoolDetailSubmit" ,class:"Submit" %>
+  </div>
+  </div>
+  </div>
+<% end %>

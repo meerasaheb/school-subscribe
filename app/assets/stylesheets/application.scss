@@ -1,0 +1,577 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+header {
+    /*background: #1aaf92;*/
+    background: #D81B60;
+    height: 20%;
+    .logo-part {
+
+        width: 100%;
+        padding: 0.5em;
+    }
+    .a {
+        margin-bottom: 2em;
+        float: right;
+        width: 4em;
+    }
+}
+
+.navbar {
+    /*background: #34495e;*/
+    background: #8D6E63;
+    border-radius: 0;
+    padding: 1em;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        li {
+            padding: 0.3em;
+            float: left;
+            margin-left: 5%;
+            a {
+                margin-top: 0.5em;
+                display: inline;
+                color: white;
+                text-align: center;
+                font-size: 2.5em;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #fff;
+                background-color: transparent !important;
+            }
+            img{
+            	width: 2em;
+            }
+        }
+    }
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+th {
+
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*#newschooldetails{
+  margin-top: -20px;
+}*/
+ .form
+   {
+     width:100%;
+     background:#00BCD4;
+    margin-bottom: 10px;
+  }
+
+.part1{
+  width:50%;
+  margin-top:3em;
+}
+.part2{
+  width:50%;
+}
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+label {
+
+  display: inline-block;
+   
+    text-align: left;
+
+
+}
+h1{
+  margin-top: -22px;
+  padding-top: 22px;
+}
+/*.radio{
+  margin-top:-14.5em;
+  padding-right:2em;
+  width:40%;
+  height: 20px;
+ 
+  float:right;
+}*/
+#schooldetail_schoolname{
+    width:21em;
+    height: 2em;
+    float:left;
+margin-top: 12px;
+    margin-left: 0.9em;
+  padding-left: 17px;
+}
+#schooldetail_address{
+
+ 
+   width:21em;
+   height: 4em;
+  margin-top: 0.9em;
+  margin-left: -20.9em;
+ 
+
+}
+.schoola{
+  width:0%;
+}
+#schoolname{
+  float:left;
+  padding-left:20px;
+  padding-top: 19px;
+}
+#schooladdress{
+  float:left;
+  margin-top: 0.9em;
+  padding-left:20px;
+  margin-bottom: 10px;
+}
+.schoolcity{
+  margin-left: 9.3em;
+
+
+}
+
+#schooldetail_city,#schooldetail_pincode,
+#schooldetail_state
+{
+  width:18em;
+}
+#schooldetail_affiliatedboard_cbse,#schooldetail_affiliatedboard_icse,
+#schooldetail_affiliatedboard_matric,#schooldetail_affiliatedboard_state_board
+{
+  height: 21px;
+  width: 27px;
+}
+/*#new_schooldetail > div > div > div.left-part > div>input[type=radio]{
+  height: 20px;
+  width: 20px;
+}*/
+.schoolstate{
+  margin-bottom: 10px;
+ 
+  margin-left: 9.3em;  
+
+}
+/*#newschooldetails{
+   background:#00BCD4;
+  width:100%;
+	padding-left:1.5em;
+	
+  font-size: 30px;
+  color: green;
+  text-align: left;
+}*/
+/*#sch2ooldetail_city{
+ float:left;
+}*/
+
+/*.radio
+    {
+     width:6em;
+    border: 2px solid #a1a1a1;
+    padding: 3px 1em;
+    background: #dddddd;
+    
+    border-radius: 25px;
+      
+/*margin-right:100px; 
+font-family:sans-serif;*/
+/*}*/
+.stateboard
+    {
+    border: 2px solid #a1a1a1;
+    padding: 3px 4em;
+    background: #dddddd;
+    margin-top: 29px;
+    border-radius: 25px;
+      
+/*margin-right:100px; 
+font-family:sans-serif;*/
+}
+
+.StateBoard{
+	    margin-top: 2em;
+}
+.affiliatedboard{
+	margin-bottom: 1.9em;
+}
+img{
+	width:30px;
+  float:left;
+   margin-top: -22px;
+   padding-top: 22px;
+
+}
+.logo{
+
+  width:4em;
+  float:left;
+   margin-top: -22px;
+   padding-top: 22px;
+  }
+.actions{
+	margin-left: 30em;
+
+    border-radius: 25px; 
+}
+.Submit{
+  margin-left:7em;
+	font-size:17px;
+	background-color: #00BCD4;
+}
+#schooldetail_pincode{
+	margin-bottom: 1em;
+}
+.field {
+    .label-width {
+        width: 5em;
+    }
+    .form-control {
+        width: 55%;
+    }
+}
+.left-part {
+    width:50%;
+    float: right;
+    margin-top: -17em;
+    .field{
+    	margin-top: 2em;
+    .text{
+    	margin-left: 0.5em;
+    	/*padding: 0.5em;*/
+    	border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #dddddd;
+    
+    border-radius: 25px;
+
+
+    }
+    }
+}
+/*
+//Subsrcibingplan*/
+
+
+
+/*div label input {
+   margin-right:100px;
+}
+body {
+    font-family:sans-serif;
+}*/
+.subsrcibform{
+  width:100%;
+  background: grey;
+}
+.subject-container{
+  width:40%;
+  margin-left: 3em;
+
+}
+.features-container{
+  margin-left: 3em;
+}
+// .subject{
+  
+//   font-size: 25px;
+// }
+// .subject-radio{
+//   margin-left: 0.5em;
+  
+//       /*padding: 0.5em;*/
+//       border: 2px solid #a1a1a1;
+//     padding: 10px 40px;
+//     background: #dddddd;
+    
+//     border-radius: 25px;
+//   }
+
+#subsrcibingplan_subject_all,#subsrcibingplan_subject_ict_only
+{
+  margin-left: 4em;
+  width:20px;
+  height: 20px;
+}
+/*#ck-button{
+  margin-left: 0.5em;
+      /*padding: 0.5em;*/
+     /* border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #dddddd;
+    
+    border-radius: 25px;
+}*/
+/*div label input {
+   
+}*/
+
+
+#ck-button-pa1 {
+  padding: 6px 40px;
+    margin-left: 13.5em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:10em;
+    margin-top: 3em;
+}
+
+#ck-button-pa1 label {
+    
+    width:6em;
+}
+
+#ck-button-pa1 label span {
+    text-align:center;
+    padding-top: 6px;
+    display:block;
+}
+
+#ck-button-pa1 label input {
+    position:absolute;
+    top:-20px;
+}
+
+#ck-button-pa1 input:checked + span {
+    background-color:#911;
+    color:#fff;
+}
+/*2ndcheckbox thinkmate*/
+#ck-button-pa2 {
+  padding: 6px 40px;
+    margin-left: 13.5em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:10em;
+    margin-top: 2em;
+}
+
+#ck-button-pa2 label {
+    
+    width:6em;
+}
+
+#ck-button-pa2 label span {
+    text-align:center;
+    padding-top:6px;
+    display:block;
+}
+
+#ck-button-pa2 label input {
+    position:absolute;
+    top:-100px;
+}
+
+#ck-button-pa2 input:checked + span {
+    background-color:#911;
+    color:#fff;
+}
+/*childstart1*/
+#ck-button-ch1 {
+  padding: 4px 40px;
+    margin-left: 20em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:13em;
+    margin-top: 2em;
+}
+
+#ck-button-ch1 label {
+    
+    width:6em;
+}
+
+#ck-button-ch1 label span {
+    text-align:center;
+    padding-right: 3px;
+    padding-top: 6px;
+    display:block;
+}
+
+#ck-button-ch1 label input {
+    position:absolute;
+    top:-100px;
+}
+
+#ck-button-ch1 input:checked + span {
+    background-color:green;
+    color:#fff;
+}
+/*child2*/
+
+#ck-button-ch2 {
+  padding: 4px 40px;
+    margin-left: 20em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:13em;
+    margin-top: 2em;
+}
+
+#ck-button-ch2 label {
+    
+    width:6em;
+}
+
+#ck-button-ch2 label span {
+    text-align:center;
+    padding-right: 3px;
+    padding-top: 6px;
+    display:block;
+}
+
+#ck-button-ch2 label input {
+    position:absolute;
+    top:-80px;
+}
+
+#ck-button-ch2 input:checked + span {
+    background-color:green;
+    color:#fff;
+}
+
+/*child3*/
+#ck-button-ch3 {
+  padding: 4px 40px;
+    margin-left: 20em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:13em;
+    margin-top: 2em;
+}
+
+#ck-button-ch3 label {
+    
+    width:6em;
+}
+
+#ck-button-ch3 label span {
+    text-align:center;
+    padding-right: 3px;
+    padding-top: 6px;
+    display:block;
+}
+
+#ck-button-ch3 label input {
+    position:absolute;
+    top:-80px;
+}
+
+#ck-button-ch3 input:checked + span {
+    background-color:green;
+    color:#fff;
+}
+/*child4*/
+#ck-button-ch4 {
+  padding: 4px 40px;
+    margin-left: 20em;
+    background-color:#EFEFEF;
+   border-radius: 25px;
+   border: 2px solid #a1a1a1;
+    width:13em;
+    margin-top: 2em;
+}
+
+#ck-button-ch4 label {
+    
+    width:6em;
+}
+
+#ck-button-ch4 label span {
+    text-align:center;
+    padding-right: 3px;
+    padding-top: 6px;
+    display:block;
+}
+
+#ck-button-ch4 label input {
+    position:absolute;
+    top:-80px;
+}
+
+#ck-button-ch4 input:checked + span {
+    background-color:green;
+    color:#fff;
+}
